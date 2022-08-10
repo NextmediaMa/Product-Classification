@@ -1,1 +1,28 @@
 .ipynb_checkpoints/
+
+# For Flask App 
+FlaskAPI/.DS_Store
+FlaskAPI/.env
+FlaskAPI/.flaskenv
+FlaskAPI/*.pyc
+FlaskAPI/*.pyo
+FlaskAPI/env/
+FlaskAPI/venv/
+FlaskAPI/.venv/
+FlaskAPI/env*
+FlaskAPI/dist/
+FlaskAPI/build/
+FlaskAPI/*.egg
+FlaskAPI/*.egg-info/
+FlaskAPI/.tox/
+FlaskAPI/.cache/
+FlaskAPI/.pytest_cache/
+FlaskAPI/.idea/
+docs/_build/
+.vscode
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
