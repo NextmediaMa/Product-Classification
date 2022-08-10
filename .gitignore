@@ -18,7 +18,7 @@ FlaskAPI/.tox/
 FlaskAPI/.cache/
 FlaskAPI/.pytest_cache/
 FlaskAPI/.idea/
-docs/_build/
+FlaskAPI/docs/_build/
 .vscode
 
 # Coverage reports
@@ -26,3 +26,8 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+# models
+
+FlaskAPI/MLP88_08.pkl
+FlaskAPI/vectorizer.pkl
