@@ -2,8 +2,7 @@ import pickle
 import pandas as pd
 from api.utils.preprocess import preprocess
 import json
-from api.utils.numpyArrayEncoder import NumpyArrayEncoder
-from api.utils.combineColumns import combineColumns
+from api.utils.functions import combineColumns
 import numpy as np
 
 

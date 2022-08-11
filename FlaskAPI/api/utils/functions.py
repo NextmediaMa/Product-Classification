@@ -1,5 +1,6 @@
-import numpy as np
 import pandas as pd
+from json import JSONEncoder
+import numpy as np
 
 
 def combineColumns(df):
@@ -11,3 +12,10 @@ def combineColumns(df):
     df2 = pd.DataFrame()
     df2['title'] = df['title'].astype(str) + " " + df['description'].astype(str)
     return df2
+
+
+class NumpyArrayEncoder(JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return JSONEncoder.default(self, obj)
