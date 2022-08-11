@@ -1,10 +1,11 @@
 .ipynb_checkpoints/
 
 # For Flask App 
+FlaskAPI/api/*.pyc
+FlaskAPI/api/__pycahe__/*
 FlaskAPI/.DS_Store
 FlaskAPI/.env
 FlaskAPI/.flaskenv
-FlaskAPI/*.pyc
 FlaskAPI/*.pyo
 FlaskAPI/env/
 FlaskAPI/venv/
@@ -31,3 +32,6 @@ htmlcov/
 
 FlaskAPI/MLP88_08.pkl
 FlaskAPI/vectorizer.pkl
+*.pyc
+*.pyc
+FlaskAPI/api/__pycache__/controller.cpython-310.pyc
