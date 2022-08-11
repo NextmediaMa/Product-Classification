@@ -41,8 +41,8 @@ def remove_urls(text):
 
 
 def preprocess(df):
-    #df['Title'] = df['Title'].str.replace('\d+', '')
-    df["Title"] = df["Title"].apply(lambda x: utils_preprocess_text(x, lst_stopwords=lst_stopwords))
-    #df["Title"] = df["Title"].apply(lambda text: remove_punctuation(text))
-    #df['Title'] = df['Title'].apply(remove_urls)
+    #df['title'] = df['title'].str.replace('\d+', '')
+    df["title"] = df["title"].apply(lambda x: utils_preprocess_text(x, lst_stopwords=lst_stopwords))
+    #df["title"] = df["title"].apply(lambda text: remove_punctuation(text))
+    #df['title'] = df['title'].apply(remove_urls)
     return df
