@@ -4,7 +4,7 @@ from api.utils.preprocess import preprocess
 import json
 from api.utils.functions import combineColumns
 import numpy as np
-from keras.models import load_model
+from tensorflow.python.keras.models import load_model
 
 
 def predict(json_data, predict_proba=False):
