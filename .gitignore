@@ -35,3 +35,5 @@ FlaskAPI/vectorizer.pkl
 *.pyc
 *.pyc
 FlaskAPI/api/__pycache__/controller.cpython-310.pyc
+FlaskAPI/ANN-N.h5
+FlaskAPI/TF-IDF.pkl
